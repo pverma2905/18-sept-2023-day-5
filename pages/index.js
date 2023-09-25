@@ -1,5 +1,9 @@
 //1. import area
 import Head from 'next/head'
+import Footer from '../components/Footer';
+import Section from '../components/Section';
+import Aside from '../components/Aside';
+import Header from '../components/Header';
 // import styles from '../styles/Home.module.css'
 
 //2.functional defination
@@ -10,17 +14,14 @@ import Head from 'next/head'
         <title>Welcome to my first nextjs application</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
-        
-      </header>
+     <Header/>
 
       <main >
-      
+     <Aside/>
+    <Section/> 
       </main>
 
-      <footer>
-       
-      </footer>
+     <Footer/>
     </>
   )
 }
